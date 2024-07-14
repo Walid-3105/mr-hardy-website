@@ -232,3 +232,79 @@ footer input[type="text"], footer textarea{
     margin-bottom: 24px;
     border: none;
 }
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    header{
+        background-image: none;
+        background-color: #FFF8F3;
+        
+    }
+    .header{
+        background-image: none;
+        width: 100%;
+    }
+    .header > nav{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .header > nav > ul{
+        flex-direction: column;
+    }
+    .secondary-background{
+        background-color: #FFF8F3;
+        
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .banner-tittle{
+        font-size: 40px;
+    }
+    .btn-primary{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    /* about section  */
+    .about{
+        padding: 10px;
+    }
+    .about-items{
+        flex-direction: column;
+    }
+
+    /* skills section */
+    .skills-container{
+        flex-direction: column;
+    }
+
+
+    /* resume section */
+    .resume{
+        padding: 20px;
+    }
+    .resume-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /* footer section  */
+    footer{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-column {
+        width: 100%;
+    }
+    .footer input[type="text"], footer textarea{
+        height: 50px;
+        padding: 5px;
+    }
+
+}
