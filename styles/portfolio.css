@@ -279,8 +279,14 @@ footer input[type="text"], footer textarea{
     }
 
     /* skills section */
-    .skills-container{
+    .skills-container, .skills{
+        width: 100%;
+        display: flex;
         flex-direction: column;
+    }
+    .skill{
+        justify-content: center;
+        text-align: center;
     }
 
 
